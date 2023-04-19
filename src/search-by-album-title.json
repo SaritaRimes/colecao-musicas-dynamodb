@@ -1,0 +1,8 @@
+{
+    "TableName": "Music",
+    "IndexName": "AlbumTitle-index",
+    "KeyConditionExpression": "AlbumTitle = :name",
+    "ExpressionAttributeValues": {
+        ":name": {"S":"Fear of the Dark"}
+    }
+}

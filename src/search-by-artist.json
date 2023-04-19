@@ -1,0 +1,7 @@
+{
+    "TableName": "Music",
+    "KeyConditionExpression": "Artist = :artist",
+    "ExpressionAttributeValues": {
+        ":artist": {"S":"Iron Maiden"}
+    }
+}
