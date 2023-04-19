@@ -1,9 +1,0 @@
-{
-    "TableName": "Music",
-    "IndexName": "SongTitleYear-index",
-    "KeyConditionExpression": "SongTitle = :v_song and SongYear = :v_year",
-    "ExpressionAttributeValues": {
-        ":v_song": {"S":"Wasting Love"},
-        ":v_year": {"S": "1992"}
-    }
-}

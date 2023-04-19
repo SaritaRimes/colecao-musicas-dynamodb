@@ -1,9 +1,0 @@
-{
-    "TableName": "Music",
-    "IndexName": "ArtistAlbumTitle-index",
-    "KeyConditionExpression": "Artist = :v_artist and AlbumTitle = :v_title",
-    "ExpressionAttributeValues": {
-        ":v_artist": {"S":"Iron Maiden"},
-        ":v_title": {"S": "Fear of the Dark"}
-    }
-}
